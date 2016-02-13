@@ -9,6 +9,12 @@
         android:singleLine="true"
         />
 
-
+    <ListPreference
+        android:title="@string/pref_units"
+        android:key="@string/pref_units_key"
+        android:defaultValue="@string/pref_units_metric"
+        android:entries="@array/pref_units_values"
+        android:entryValues="@array/pref_units_options"
+        />
 
 </PreferenceScreen>
